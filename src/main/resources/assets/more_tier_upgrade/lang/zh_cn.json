@@ -1,0 +1,33 @@
+{
+  "itemGroup.more_tier_upgrade_tab": "更多 精妙背包&存储 堆叠",
+
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_5": "堆叠升级T5",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_5.tooltip": "单格堆叠上限x32",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_6": "堆叠升级T6",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_6.tooltip": "单格堆叠上限x48",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_7": "堆叠升级T7",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_7.tooltip": "单格堆叠上限x64",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_8": "堆叠升级T8",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_8.tooltip": "单格堆叠上限x80",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_9": "堆叠升级T9",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_9.tooltip": "单格堆叠上限x96",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_10": "堆叠升级T10",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_10.tooltip": "单格堆叠上限x128",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_11": "堆叠升级T11",
+  "item.more_tier_upgrade.stack_upgrade_tier_sb_11.tooltip": "单格堆叠上限x160",
+
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_6": "堆叠升级T6",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_6.tooltip": "单格堆叠上限x48",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_7": "堆叠升级T7",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_7.tooltip": "单格堆叠上限x64",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_8": "堆叠升级T8",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_8.tooltip": "单格堆叠上限x80",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_9": "堆叠升级T9",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_9.tooltip": "单格堆叠上限x96",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_10": "堆叠升级T10",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_10.tooltip": "单格堆叠上限x128",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_11": "堆叠升级T11",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_11.tooltip": "单格堆叠上限x160",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_12": "堆叠升级T12",
+  "item.more_tier_upgrade.stack_upgrade_tier_ss_12.tooltip": "单格堆叠上限x176"
+}

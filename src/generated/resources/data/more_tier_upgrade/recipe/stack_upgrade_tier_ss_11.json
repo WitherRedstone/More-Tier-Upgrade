@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "more_tier_upgrade:stack_upgrade_tier_ss_10"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CAC",
+    "BCB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_tier_upgrade:stack_upgrade_tier_ss_11"
+  }
+}

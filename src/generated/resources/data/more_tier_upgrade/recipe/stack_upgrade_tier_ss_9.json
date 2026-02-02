@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "more_tier_upgrade:stack_upgrade_tier_ss_8"
+    },
+    "B": {
+      "item": "minecraft:conduit"
+    },
+    "C": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CAC",
+    "BCB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_tier_upgrade:stack_upgrade_tier_ss_9"
+  }
+}

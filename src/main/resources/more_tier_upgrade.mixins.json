@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chinaex123.more_tier_upgrade.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "more_tier_upgrade.refmap.json",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
