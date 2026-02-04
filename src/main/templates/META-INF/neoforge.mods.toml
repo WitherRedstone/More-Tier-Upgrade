@@ -46,7 +46,7 @@ authors="ChinaEX123"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Add 1 new stacking level to Sophisticated Backpacks and Sophisticated Storage.
+Add multiple new stacking levels to Sophisticated Backpacks and Sophisticated Storage.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
@@ -92,7 +92,7 @@ config="${mod_id}.mixins.json"
     modId = "sophisticatedcore"
     type = "required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange = "[1.4.1.1459,)"
+    versionRange = "[1.4.1,)"
     ordering = "AFTER"
     side = "BOTH"
 
@@ -100,7 +100,7 @@ config="${mod_id}.mixins.json"
     modId = "sophisticatedbackpacks"
     type = "required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange = "[3.25.24.1499,)"
+    versionRange = "[3.25.24,)"
     ordering = "AFTER"
     side = "BOTH"
 
@@ -108,7 +108,7 @@ config="${mod_id}.mixins.json"
     modId = "sophisticatedstorage"
     type = "required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange = "[1.5.25.1467,)"
+    versionRange = "[1.5.25,)"
     ordering = "AFTER"
     side = "BOTH"
 
