@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "more_tier_upgrade:stack_upgrade_tier_sb_8"
+    },
+    "B": {
+      "item": "minecraft:scute"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "result": {
+    "item": "more_tier_upgrade:stack_upgrade_tier_sb_9"
+  },
+  "show_notification": true
+}
