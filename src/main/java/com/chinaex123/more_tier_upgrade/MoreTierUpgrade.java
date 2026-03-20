@@ -30,6 +30,5 @@ public class MoreTierUpgrade {
         StickUpgradeItem.register(modEventBus); // 注册物品
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-    }
+    private void commonSetup(final FMLCommonSetupEvent event) {}
 }

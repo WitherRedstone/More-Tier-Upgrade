@@ -1,7 +1,6 @@
 package com.chinaex123.more_tier_upgrade.register;
 
 import com.chinaex123.more_tier_upgrade.MoreTierUpgrade;
-import com.chinaex123.more_tier_upgrade.register.StickUpgradeItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
