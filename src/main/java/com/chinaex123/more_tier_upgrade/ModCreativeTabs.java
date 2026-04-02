@@ -1,6 +1,6 @@
-package com.chinaex123.more_tier_upgrade.register;
+package com.chinaex123.more_tier_upgrade;
 
-import com.chinaex123.more_tier_upgrade.MoreTierUpgrade;
+import com.chinaex123.more_tier_upgrade.item.StickUpgradeItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +21,7 @@ public class ModCreativeTabs {
                     .title(Component.translatable("itemGroup.more_tier_upgrade_tab"))
                     .displayItems((parameters, output) -> {
 
-                        // 精妙背包
+                        // ==================== 精妙背包 ====================
                         output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_5.get()); // 堆叠升级T5
                         output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_6.get()); //  堆叠升级T6
                         output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_7.get()); // 堆叠升级T7
@@ -30,7 +30,7 @@ public class ModCreativeTabs {
                         output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_10.get()); // 堆叠升级T10
                         output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_11.get()); // 堆叠升级T11
 
-                        // 精妙存储
+                        // ==================== 特殊锤子 ====================
                         output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_6.get()); // 堆叠升级T6
                         output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_7.get()); // 堆叠升级T7
                         output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_8.get()); // 堆叠升级T8

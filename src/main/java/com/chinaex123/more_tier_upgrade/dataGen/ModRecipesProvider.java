@@ -1,7 +1,7 @@
-package com.chinaex123.more_tier_upgrade.register.dataGen;
+package com.chinaex123.more_tier_upgrade.dataGen;
 
 import com.chinaex123.more_tier_upgrade.MoreTierUpgrade;
-import com.chinaex123.more_tier_upgrade.register.StickUpgradeItem;
+import com.chinaex123.more_tier_upgrade.item.StickUpgradeItem;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -21,7 +21,6 @@ import org.jetbrains.annotations.NotNull;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipesProvider extends RecipeProvider {
-
     public HolderLookup.Provider getProvider() {
         return provider;
     }
@@ -56,7 +55,6 @@ public class ModRecipesProvider extends RecipeProvider {
         HolderGetter<Item> itemRegistryLookup = this.registries.lookupOrThrow(Registries.ITEM);
 
         // ==================== 精妙背包 ====================
-
         // 堆叠升级T5 - 本体 - 转换
         ShapedRecipeBuilder.shaped(itemRegistryLookup, RecipeCategory.MISC, StickUpgradeItem.STACK_UPGRADE_TIER_SB_5.get())
                 .pattern("BBB")
@@ -191,7 +189,6 @@ public class ModRecipesProvider extends RecipeProvider {
                 .save(output, MoreTierUpgrade.MOD_ID + ":stack_upgrade_tier_sb_11_for_ss");
 
         // ==================== 精妙存储 ====================
-
         // 堆叠升级T6 - 本体 - 转换
         ShapedRecipeBuilder.shaped(itemRegistryLookup, RecipeCategory.MISC, StickUpgradeItem.STACK_UPGRADE_TIER_SS_6.get())
                 .pattern("CCC")

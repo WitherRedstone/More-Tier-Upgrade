@@ -1,4 +1,4 @@
-package com.chinaex123.more_tier_upgrade.register.dataGen;
+package com.chinaex123.more_tier_upgrade.dataGen;
 
 import com.chinaex123.more_tier_upgrade.MoreTierUpgrade;
 import net.minecraft.core.HolderLookup;
@@ -14,11 +14,7 @@ import java.util.concurrent.CompletableFuture;
 public class ModDataGenerator {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent.Client event) {
-        DataGenerator generator = event.getGenerator();
-        PackOutput packOutput = generator.getPackOutput();
-        CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
-
-        // 注册配方生成器
-        generator.addProvider(true, new ModRecipesProvider.Runner(packOutput, lookupProvider));
+        event.createProvider(ModRecipesProvider.Runner::new);
+        event.createProvider(ModModelsProvider::new);
     }
 }
