@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "more_tier_upgrade:stack_upgrade_tier_sb_9",
+    "B": "minecraft:nether_star"
+  },
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "result": {
+    "id": "more_tier_upgrade:stack_upgrade_tier_sb_10"
+  }
+}

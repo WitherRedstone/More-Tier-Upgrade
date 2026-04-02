@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "sophisticatedbackpacks:stack_upgrade_tier_4",
+    "B": "minecraft:amethyst_block"
+  },
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "result": {
+    "id": "more_tier_upgrade:stack_upgrade_tier_sb_5"
+  }
+}

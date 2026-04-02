@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "more_tier_upgrade:stack_upgrade_tier_ss_11",
+    "B": "minecraft:heavy_core",
+    "C": "minecraft:popped_chorus_fruit"
+  },
+  "pattern": [
+    "CCC",
+    "CAC",
+    "BCB"
+  ],
+  "result": {
+    "id": "more_tier_upgrade:stack_upgrade_tier_ss_12"
+  }
+}

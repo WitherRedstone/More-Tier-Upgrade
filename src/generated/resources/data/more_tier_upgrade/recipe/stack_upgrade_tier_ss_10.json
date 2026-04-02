@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "more_tier_upgrade:stack_upgrade_tier_ss_9",
+    "B": "minecraft:turtle_scute",
+    "C": "minecraft:ghast_tear"
+  },
+  "pattern": [
+    "CCC",
+    "CAC",
+    "BCB"
+  ],
+  "result": {
+    "id": "more_tier_upgrade:stack_upgrade_tier_ss_10"
+  }
+}

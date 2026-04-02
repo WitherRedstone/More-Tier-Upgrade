@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:leather",
+    "B": "more_tier_upgrade:stack_upgrade_tier_ss_9",
+    "C": "minecraft:string"
+  },
+  "pattern": [
+    "CBC",
+    "BAB",
+    "C C"
+  ],
+  "result": {
+    "id": "more_tier_upgrade:stack_upgrade_tier_sb_8"
+  }
+}

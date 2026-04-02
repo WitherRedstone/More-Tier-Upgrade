@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "more_tier_upgrade:stack_upgrade_tier_ss_6",
+    "B": "minecraft:honey_block",
+    "C": "minecraft:honeycomb"
+  },
+  "pattern": [
+    "CCC",
+    "CAC",
+    "BCB"
+  ],
+  "result": {
+    "id": "more_tier_upgrade:stack_upgrade_tier_ss_7"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "more_tier_upgrade:stack_upgrade_tier_ss_7",
+    "B": "minecraft:sculk",
+    "C": "minecraft:echo_shard"
+  },
+  "pattern": [
+    "CCC",
+    "CAC",
+    "BCB"
+  ],
+  "result": {
+    "id": "more_tier_upgrade:stack_upgrade_tier_ss_8"
+  }
+}
