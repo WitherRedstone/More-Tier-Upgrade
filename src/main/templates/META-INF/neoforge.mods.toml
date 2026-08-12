@@ -1,0 +1,43 @@
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+iconFile="logo.png"
+authors="ChinaEX123"
+description='''
+Add multiple new stacking levels to Sophisticated Backpacks and Sophisticated Storage.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId = "sophisticatedcore"
+    type = "required"
+    versionRange = "[1.4.98,)"
+    ordering = "AFTER"
+    side = "BOTH"
+[[dependencies."${mod_id}"]]
+    modId = "sophisticatedbackpacks"
+    type = "required"
+    versionRange = "[3.25.88,)"
+    ordering = "AFTER"
+    side = "BOTH"
+[[dependencies."${mod_id}"]]
+    modId = "sophisticatedstorage"
+    type = "required"
+    versionRange = "[1.5.106,)"
+    ordering = "AFTER"
+    side = "BOTH"
