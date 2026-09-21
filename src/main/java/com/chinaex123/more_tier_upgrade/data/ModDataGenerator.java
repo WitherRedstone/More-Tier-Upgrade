@@ -1,4 +1,4 @@
-package com.chinaex123.more_tier_upgrade.register.dataGen;
+package com.chinaex123.more_tier_upgrade.data;
 
 import com.chinaex123.more_tier_upgrade.MoreTierUpgrade;
 import net.minecraft.core.HolderLookup;

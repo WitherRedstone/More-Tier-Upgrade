@@ -1,7 +1,7 @@
 package com.chinaex123.more_tier_upgrade;
 
-import com.chinaex123.more_tier_upgrade.register.ModCreativeTabs;
-import com.chinaex123.more_tier_upgrade.register.StickUpgradeItem;
+import com.chinaex123.more_tier_upgrade.init.MTUCreativeTabs;
+import com.chinaex123.more_tier_upgrade.init.MTUItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -31,9 +31,9 @@ public class MoreTierUpgrade {
         NeoForge.EVENT_BUS.register(this);
 
         // 将物品注册到游戏
-        ModCreativeTabs.register(modEventBus); // 创造模式物品栏
+        MTUCreativeTabs.register(modEventBus); // 创造模式物品栏
 
-        StickUpgradeItem.register(modEventBus); // 注册物品
+        MTUItems.register(modEventBus); // 注册物品
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
