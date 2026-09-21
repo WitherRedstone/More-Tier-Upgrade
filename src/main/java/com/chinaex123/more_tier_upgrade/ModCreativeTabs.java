@@ -1,6 +1,6 @@
 package com.chinaex123.more_tier_upgrade;
 
-import com.chinaex123.more_tier_upgrade.item.StickUpgradeItem;
+import com.chinaex123.more_tier_upgrade.init.MTUItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,32 +17,31 @@ public class ModCreativeTabs {
 
     public static final Supplier<CreativeModeTab> MORE_TIER_UPGRADE_TAB =
             CREATIVE_MODE_TAB.register("more_tier_upgrade_tab", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(StickUpgradeItem.STACK_UPGRADE_TIER_SB_5.get()))
+                    .icon(() -> new ItemStack(MTUItems.STACK_UPGRADE_TIER_SB_5.get()))
                     .title(Component.translatable("itemGroup.more_tier_upgrade_tab"))
                     .displayItems((parameters, output) -> {
 
                         // ==================== 精妙背包 ====================
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_5.get()); // 堆叠升级T5
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_6.get()); //  堆叠升级T6
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_7.get()); // 堆叠升级T7
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_8.get()); // 堆叠升级T8
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_9.get()); // 堆叠升级T9
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_10.get()); // 堆叠升级T10
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SB_11.get()); // 堆叠升级T11
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SB_5.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SB_6.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SB_7.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SB_8.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SB_9.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SB_10.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SB_11.get());
 
                         // ==================== 特殊锤子 ====================
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_6.get()); // 堆叠升级T6
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_7.get()); // 堆叠升级T7
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_8.get()); // 堆叠升级T8
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_9.get()); // 堆叠升级T9
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_10.get()); // 堆叠升级T10
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_11.get()); // 堆叠升级T11
-                        output.accept(StickUpgradeItem.STACK_UPGRADE_TIER_SS_12.get()); // 堆叠升级T12
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SS_6.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SS_7.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SS_8.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SS_9.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SS_10.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SS_11.get());
+                        output.accept(MTUItems.STACK_UPGRADE_TIER_SS_12.get());
 
                     })
                     .build());
 
-    // 注册到NeoForge事件总线里
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
     }
