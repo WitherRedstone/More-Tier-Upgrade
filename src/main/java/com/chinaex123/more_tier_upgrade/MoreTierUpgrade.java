@@ -1,6 +1,6 @@
 package com.chinaex123.more_tier_upgrade;
 
-import com.chinaex123.more_tier_upgrade.item.StickUpgradeItem;
+import com.chinaex123.more_tier_upgrade.init.MTUItems;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -14,6 +14,6 @@ public class MoreTierUpgrade {
 
     public MoreTierUpgrade(IEventBus modEventBus, ModContainer modContainer) {
         ModCreativeTabs.register(modEventBus);
-        StickUpgradeItem.register(modEventBus);
+        MTUItems.register(modEventBus);
     }
 }

@@ -89,7 +89,6 @@ config="${mod_id}.mixins.json"
     versionRange = "[1.4.5,)"
     ordering = "AFTER"
     side = "BOTH"
-
 [[dependencies."${mod_id}"]]
     modId = "sophisticatedbackpacks"
     type = "required"
@@ -97,7 +96,6 @@ config="${mod_id}.mixins.json"
     versionRange = "[3.25.30,)"
     ordering = "AFTER"
     side = "BOTH"
-
 [[dependencies."${mod_id}"]]
     modId = "sophisticatedstorage"
     type = "required"
